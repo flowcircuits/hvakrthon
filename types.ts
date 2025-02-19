@@ -4,17 +4,35 @@ export interface Point {
 	z: number
 }
 
-export type NodeType = "SOURCE" | "CONNECTOR" | "SINK"
-
 export interface Adjacency {
 	id: string
 }
 
-export interface Node {
-	type: NodeType
+export interface SourceNode {
+	type: "SOURCE"
+	id: string
+	groupId: string
+	point: Point
+	adjacencies: Adjacency[]
+}
+
+export interface ConnectorNode {
+	type: "CONNECTOR"
 	id: string
 	point: Point
 	adjacencies: Adjacency[]
 }
+
+export interface SinkNode {
+	type: "SINK"
+	id: string
+	groupId: string
+	point: Point
+	adjacencies: Adjacency[]
+}
+
+export type Node = SourceNode | ConnectorNode | SinkNode
+
+export type NodeType = Node["type"]
 
 export type Graph = Record<string, Node>
