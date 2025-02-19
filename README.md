@@ -6,12 +6,13 @@ HVAKR is a modern, cloud-based design platform for HVAC engineers, streamlining 
 
 ## Challenge
 
-Your task is to implement an auto-routing feature that connects HVAC components with ductwork while adhering to specific rules and optimizing performance metrics.
+Your task is to implement an auto-routing feature that connects HVAC components of the same group with ductwork while adhering to specific rules and optimizing performance metrics.
 
 ## Rules
 
 To be a valid solution, the routed ducts must follow these constraints:
 
+-   **Connect Within Groups:** Ducts should connect the "source" within a group to all the "sinks" within a group.
 -   **No Collisions:** Ducts cannot intersect or collide.
 -   **Connection Limits:**
     -   Source nodes: max 1 adjacency
