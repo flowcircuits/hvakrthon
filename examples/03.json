@@ -8,6 +8,7 @@
 	},
 	"node2": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node2",
 		"groupId": "default",
 		"point": { "x": 60, "y": 30, "z": 0 },
@@ -15,6 +16,7 @@
 	},
 	"node3": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node3",
 		"groupId": "default",
 		"point": { "x": 120, "y": 30, "z": 0 },
@@ -22,6 +24,7 @@
 	},
 	"node4": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node4",
 		"groupId": "default",
 		"point": { "x": 180, "y": 30, "z": 0 },
@@ -29,6 +32,7 @@
 	},
 	"node5": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node5",
 		"groupId": "default",
 		"point": { "x": 60, "y": -30, "z": 0 },
@@ -36,6 +40,7 @@
 	},
 	"node6": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node6",
 		"groupId": "default",
 		"point": { "x": 120, "y": -30, "z": 0 },
@@ -43,6 +48,7 @@
 	},
 	"node7": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node7",
 		"groupId": "default",
 		"point": { "x": 180, "y": -30, "z": 0 },

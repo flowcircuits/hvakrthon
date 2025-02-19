@@ -8,6 +8,7 @@
 	},
 	"node2": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node2",
 		"groupId": "default",
 		"point": { "x": 60, "y": 0, "z": 0 },

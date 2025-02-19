@@ -28,6 +28,7 @@ export interface SinkNode {
 	id: string
 	groupId: string
 	point: Point
+	flowRate: number
 	adjacencies: Adjacency[]
 }
 

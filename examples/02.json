@@ -8,6 +8,7 @@
 	},
 	"node2": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node2",
 		"groupId": "default",
 		"point": { "x": 60, "y": 0, "z": 0 },
@@ -15,6 +16,7 @@
 	},
 	"node3": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node3",
 		"groupId": "default",
 		"point": { "x": 120, "y": 0, "z": 0 },
@@ -22,6 +24,7 @@
 	},
 	"node4": {
 		"type": "SINK",
+		"flowRate": 100,
 		"id": "node4",
 		"groupId": "default",
 		"point": { "x": 180, "y": 0, "z": 0 },
