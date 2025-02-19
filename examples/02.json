@@ -1,0 +1,26 @@
+{
+	"node1": {
+		"type": "SOURCE",
+		"id": "node1",
+		"point": { "x": 0, "y": 0, "z": 0 },
+		"adjacencies": []
+	},
+	"node2": {
+		"type": "SINK",
+		"id": "node2",
+		"point": { "x": 60, "y": 0, "z": 0 },
+		"adjacencies": []
+	},
+	"node3": {
+		"type": "SINK",
+		"id": "node3",
+		"point": { "x": 120, "y": 0, "z": 0 },
+		"adjacencies": []
+	},
+	"node4": {
+		"type": "SINK",
+		"id": "node4",
+		"point": { "x": 180, "y": 0, "z": 0 },
+		"adjacencies": []
+	}
+}
