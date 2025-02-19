@@ -1,14 +1,14 @@
-const graph = {
-	node1: {
-		type: "SOURCE",
-		id: "node1",
-		point: { x: 0, y: 0, z: 0 },
-		adjacencies: []
+{
+	"node1": {
+		"type": "SOURCE",
+		"id": "node1",
+		"point": { "x": 0, "y": 0, "z": 0 },
+		"adjacencies": []
 	},
-	node2: {
-		type: "SINK",
-		id: "node2",
-		point: { x: 60, y: 0, z: 0 }, // 5 * 12 = 60
-		adjacencies: []
+	"node2": {
+		"type": "SINK",
+		"id": "node2",
+		"point": { "x": 60, "y": 0, "z": 0 },
+		"adjacencies": []
 	}
 }
