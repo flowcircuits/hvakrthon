@@ -4,7 +4,7 @@ export interface Point {
 	z: number
 }
 
-export type NodeType = "SOURCE" | "CONNECTER" | "SINK"
+export type NodeType = "SOURCE" | "CONNECTOR" | "SINK"
 
 export interface Adjacency {
 	id: string
