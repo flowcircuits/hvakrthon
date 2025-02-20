@@ -1,0 +1,33 @@
+{
+	"node1": {
+		"type": "SOURCE",
+		"id": "node1",
+		"groupId": "default",
+		"point": { "x": 0, "y": 0, "z": 0 },
+		"adjacencies": [{ "id": "node2" }]
+	},
+	"node2": {
+		"type": "SINK",
+		"flowRate": 100,
+		"id": "node2",
+		"groupId": "default",
+		"point": { "x": 60, "y": 0, "z": 0 },
+		"adjacencies": [{ "id": "node3" }]
+	},
+	"node3": {
+		"type": "SINK",
+		"flowRate": 100,
+		"id": "node3",
+		"groupId": "default",
+		"point": { "x": 120, "y": 0, "z": 0 },
+		"adjacencies": [{ "id": "node4" }]
+	},
+	"node4": {
+		"type": "SINK",
+		"flowRate": 100,
+		"id": "node4",
+		"groupId": "default",
+		"point": { "x": 180, "y": 0, "z": 0 },
+		"adjacencies": []
+	}
+}
